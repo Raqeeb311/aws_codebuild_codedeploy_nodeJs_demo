@@ -1,4 +1,4 @@
-FROM python:alpine3.7/node:14
+FROM 556320081926.dkr.ecr.us-west-2.amazonaws.com/cicd-demo/node:14
 
 # Setting working directory. All the path will be relative to WORKDIR
 WORKDIR /usr/src/app
